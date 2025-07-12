@@ -4,4 +4,7 @@ version = "0.1.0"
 description = "A comprehensive Python package featuring an optimized suite of function tools and intelligent OpenAI-powered agents for enhanced automation and functionality."
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "openai>=1.95.1",
+    "openai-agents>=0.1.0",
+]
